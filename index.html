@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="images/icon.png">
+<title>iPhone 6s - Apple</title>
+<meta name="author" content="Ilisei Cristian"/>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    var pull        = $('#nav-toggle');
+        menu        = $('nav ul');
+        menuHeight  = menu.height();
+ 
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+});
+
+$(window).resize(function(){
+    var w = $(window).width();
+    if(w > 320 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+    }
+});
+</script>
+
+</head>
+<body id="body">
+
+	<div id="acasa" class="fullscreen not-overflow background">
+		<a class="scroll-down" href="#iphones-size"><i class="fa fa-arrow-down"></i></a>
+	</div>
+	
+	<div class="navigation my-sticky-element" onmouseover="this.style.opacity=1;" onmouseout="this.style.opacity=0.8" style="display: block; opacity: 0.8;">
+		<div class="nav-sticker">
+			<nav id="meniu">
+				<ul>
+					<li>
+						<a href="#body">Acasa</a>
+					</li>
+					<li>
+						<a href="#multi-touch">Touch 3D</a>
+					</li>
+					<li>
+						<a href="#camera">Camera</a>
+					</li>
+					<li>
+						<a href="#details-specifications">Spectificatii</a>
+					</li>
+				</ul>
+				<a href="#" id="nav-toggle">MENIU</a>
+			</nav>
+		</div>
+	</div>
+		
+	<div id="iphones-size">
+		<img src="images/home/space-grey.png">
+	</div>
+	
+	<div id="multi-touch" class="container section">
+		<h2 class="titlu"> Atingi un 3D, Tehnologia Multi-Touch a sosit </h2>
+			<p class="descriere">Cu 3D Touch , puteti face lucruri pe care nu au fost niciodata posibile, inainte. Simte cat de profund apasati pe ecran , permitandu-v sa faceti tot felul de lucruri esentiale, mai rapid si mai simplu. Si va ofera un feedback in timp real sub forma unor robinete subtile din noul motor Taptic.</p>
+				<p><a href="touch-3d.html">Aflati mai multe despre Touch-ul 3D<i class="fa fa-long-arrow-right"></i></a></p><br />
+			<img class="borderadius" src="images/3d/multi-touch.gif"/>
+	</div>
+	
+	<hr>
+	
+	<div id="camera" class="container section">
+		<h2 class="titlu">O camera mult mai inteligenta</h2>
+			<p class="descriere">Camera iSight de 12 megapixeli captureaz fotografii clare, detaliate. Realizeaza filme 4K geniale, de pana la patru ori mai mare decat rezolutia video HD 1080p. iPhone 6S ia, de asemenea, Selfie demn de un autoportret cu noua camera frontala de 5 megapixeli. Am introdus pentru dumneavostra fotografiile live, un nou mod de a retrai amintirile preferate. Fotografia live surprind momentele chiar inainte si dupa imaginea ta si salveaza miscarea doar cu apasarea a unui deget.</p>
+				<p><a href="camera.html">Aflati mai multe despre camera iSight</a><p><br />
+			<img src="images/camera/camera.jpg"/>
+	</div>
+	
+	<hr>
+	
+	<div id="details-specifications" class="container section">
+		<h2 class="titlu">Ce ti-ai putea dori mai mult?</h2>
+			<p class="descriere"></p>
+	<br>
+				<img src="images/specifications/specifications.png"/>
+	<br>
+	<br>
+			<p>
+				<a href="specifications.html">
+					Aflati specificatiile iPhone-ului 6s<i class="fa fa-long-arrow-right"></i>
+				</a>
+			</p>
+	</div>
+	
+	<hr>
+	
+	<div id="accessory" class="container section">
+		<h2 class="titlu">Accesoriile perfecte pentru iPhone-ul tau</h2>			
+			
+		<div class="row">	
+				
+			<div class="col-sm-12">
+		
+	<br />
+				<img src="images/accessory/huse.jpg"/>
+					<div class="pret">
+						<h4>Carcase silicon</h4>
+							<h5><strong>140 RON</strong></h5>
+					</div>
+			</div>
+		
+		</div>
+
+	<br />
+		
+		<div class="row">
+	
+			<div class="col-sm-6">
+				<img src="images/accessory/cablu.jpg"/>
+					<div class="pret">
+						<h4>Cablu de incarcare</h4>
+							<h5><strong>100 RON</strong></h5>
+					</div>
+			</div>
+			
+			<div class="col-sm-6">
+				<img src="images/accessory/dock.jpg"/>
+					<div class="pret">
+						<h4>Dock de incarcare</h4>
+							<h5><strong>200 RON</strong></h5>
+					</div>
+			</div>
+
+		</div>
+
+	<br />
+	
+		<div class="row">
+		
+			<div class="col-sm-6">
+				<img src="images/accessory/casti.jpg"/>
+					<div class="pret">
+						<h4>Casti cu telecomanda si microfon</h4>
+							<h5><strong>120 RON</strong></h5>
+					</div>
+			</div>
+			
+			<div class="col-sm-6">
+				<img src="images/accessory/boxa-beats.jpg"/>
+					<div class="pret">
+						<h4>Boxa Beats Phill - Alba</h4>
+							<h5><strong>900 RON</strong></h5>
+					</div>
+			</div>
+			
+		</div>
+		
+	<br />
+	
+		<div class="row">
+		
+			<div class="col-sm-6">
+				<img src="images/accessory/incarcator.jpg"/>
+					<div class="pret">
+						<h4>Incarcator adaptor</h4>
+							<h5><strong>80 RON</strong></h5>
+					</div>
+			</div>
+			
+			<div class="col-sm-6">
+				<img src="images/accessory/husa-baterie.jpg"/>
+					<div class="pret">
+						<h4>Baterie inteligenta</h4>
+							<h5><strong>400 RON</strong></h5>
+					</div>
+			</div>
+			
+		</div>
+					
+	</div>
+
+	<div id="footer" class="container">
+		<div class="row">	
+			<div class="col-sm-12">
+				<hr>
+					<p class="copyright">Toate drepturile rezervate @ iPhone 6s</p>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/meniu/waypoints.js"></script>
+<script type="text/javascript" src="js/meniu/waypoints-sticky.js"></script>
+</body>
+</html>
